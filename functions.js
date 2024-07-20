@@ -18,7 +18,7 @@ const askGPT = async (question = "", options = [], ind = 0) => {
       temperature: 0.5,
     };
 
-    const API_KEY = null;
+    const API_KEY = sk-None-R7XglTaL1qhPrVj7kIc2T3BlbkFJPUfrDPpdJHpvpMPQOrlw;
 
     const response = await fetch("https://chatgpt-proxy-zeta.vercel.app/", {
       method: "POST",
